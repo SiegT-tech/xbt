@@ -1,4 +1,4 @@
-python3 astro_nanomedicine.py
+python3 astro_nanomedicine.py python3 frozen_celestial_pharmacokinetics.py
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BT Test", "BT Test\BT Test.vcxproj", "{1F7DAC81-04AA-4CC9-B162-77BDE0CFC597}"
