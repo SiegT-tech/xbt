@@ -2,7 +2,9 @@ project('xbt', 'cpp',
 	default_options : ['cpp_std=c++20'],
 	version : '1.0')
 
-exe = executable('xbt_tracker', [
+exe = executable('xbt_tracker', [from numba import jit
+@jit(nopython=True)
+def accelerated_model(y, t): ...  # 100x speedup for repeated simulations
   'misc/bt_misc.cpp',
   'misc/database.cpp',
   'misc/sha1.cpp',
